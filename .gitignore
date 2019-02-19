@@ -1,0 +1,53 @@
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# System files
+.DS_STORE
+/bin
+
+### Java ###
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+/out/
+/target/
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+#Sonar#
+.sonar
+
+### Gradle ###
+.gradle
+/build/
+/target/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Include libs directory
+!/libs/*
+
